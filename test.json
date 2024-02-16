@@ -1,0 +1,17 @@
+{
+    "version": "0",
+    "id": "SEU_ID_DE_EVENTO_AQUI",
+    "detail-type": "AWS API Call via CloudWatch Events",
+    "source": "aws.events",
+    "account": "SEU_ID_DA_CONTA_AQUI",
+    "time": "2024-02-15T12:00:00Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+      "eventName": "PutMetricAlarm",
+      "requestParameters": {
+        "alarmName": "billing"
+      }
+    }
+  }
+  
